@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+p {
+    margin: auto;
+    width: 350px;
+}
+
+.menu {
+    width: 80%;
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-pictures {
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+    width: 80%;
+}
+
+.home-pictures img {
+    width: 30%;
+}
